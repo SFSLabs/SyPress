@@ -1,0 +1,12 @@
+<?php
+require_once __DIR__.'/FrontController.php';
+use Symfony\Component\Routing;
+$routes = new Routing\RouteCollection();
+//$routes->add('hello', new Routing\Route('/hello/{name}', array('name' => 'World')));
+$routes->add('hello', new Routing\Route('/hello/{name}', array(
+    'name' => 'World',
+    '_controller' => 'FrontController::indexAction',
+)));
+$routes->add('bye', new Routing\Route('/bye'));
+
+return $routes;

@@ -1,0 +1,4 @@
+db_driver: pdo_mysql
+db_user: root
+db_password: root
+db_name: sypress

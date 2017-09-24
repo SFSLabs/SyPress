@@ -1,0 +1,23 @@
+{
+  "name": "sypress/sypress",
+  "description": "The CMS based on the Symfony Components",
+  "keywords": [
+    "CMS,Symfony"
+  ],
+  "homepage": "http://sypress.org",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "symfony/http-foundation": "^3.3",
+    "symfony/routing": "^3.3",
+    "symfony/http-kernel": "^3.3",
+    "symfony/filesystem": "^3.3",
+    "symfony/yaml": "^3.3",
+    "symfony/console": "^3.3",
+    "doctrine/orm": "^2.5"
+  }
+}
