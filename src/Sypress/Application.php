@@ -7,7 +7,7 @@
  */
 
 namespace Sypress;
-
+use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\Routing;
 use Symfony\Component\HttpFoundation;

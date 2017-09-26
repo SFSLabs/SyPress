@@ -1,0 +1,9 @@
+homepage:
+    path: /
+    _controller: 'Sypress\Controller\FrontController::homeAction'
+single:
+    path: /single
+    _controller: 'Sypress\Controller\FrontController::singleAction'
+post:
+    path: /post
+    _controller: 'Sypress\Controller\FrontController::postAction'
