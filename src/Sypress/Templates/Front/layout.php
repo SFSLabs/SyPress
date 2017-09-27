@@ -2,7 +2,9 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- CSS Block -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- CSS Block -->
     <title><?php $view['slots']->output('title', 'SyPress') ?></title>
 </head>
 <body>
