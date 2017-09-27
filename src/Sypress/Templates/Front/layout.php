@@ -10,7 +10,7 @@
 <body>
 <?php $view['slots']->output('_content') ?>
 <!-- JS Block -->
-<script src="assets/bootstrap/js/bootstrap.min.css"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <!--End JS Block -->
 </body>
 </html>
